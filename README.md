@@ -1,5 +1,5 @@
 # Raspberry Pi 5 Bullseye
-This is an Image for the Rpi 5 with the Old Bullseye System
+This is an Image for the Rpi 5 with the Old Bullseye System. But the image is Pi4 Compatible
 
 # What Works?
 - Mesa Drivers - No - Disabled in Config.txt to see the Desktop
