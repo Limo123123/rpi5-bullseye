@@ -29,4 +29,6 @@ If its Installed you should now can reboot your pi 5. Then Chromium should open 
 Bullseye is not Officialy Supported on the Pi 5. Bullseye is now in Unstable. I Higly Recommend using Bookworm than Bullsseye.
 My Questions are: Why do some of you hate Bookworm?, And Why is Ubuntu Server so hard to setup?, Why do some of you like Bullseye more?
 You can Answer it in the Issue Tab if you like :) Before I forgot, I will Upload the Images on Source Forge because they are to big for Github.
-To Help this Project you will to have to edit Images and will have to open a Pull Request where you Puplish a readme file where how to fix that Problem stands
+To Help this Project you will to have to edit Images and will have to open a Pull Request where you Puplish a readme file where how to fix that Problem stands.
+I wont recommend to use PiKiss anymore. I am supporting Pi-Apps, but if PiKiss's Repository Owner dosen't want to Contribute for the PiKiss version for Pi-Apps, i wont use it anymore.
+I just wanted to say this. I don't mean that you mustn't use PiKiss. It's just an recomendation.
