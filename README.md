@@ -20,10 +20,11 @@ To Build your own Images, you need a Pi 4 and z.b. A Sd card or something else w
 Boot the Bullseye Image on your Pi 4. Run sudo apt update and sudo apt upgrade -y . 
 Then you run sudo rpi-update to update the Kernel Version and its generating for the Boot needing files
 Before you switch to the Pi 5 Make sure you deactivate the Drver Vc4 Driver Initalation. Just Comment it
-We have to Upgrade the Mesa Driver. In this tutorial im usin PI-KISS. You can build It Manual.
+We have to Upgrade the Mesa Driver. In this tutorial im using *PI-KISS* I wont use it anymore. You can build It Manual.
 I would Recommend to Install Pi-Kiss before you switch to the pi 5.
 If you Installed Pi Kiss, open the Terminal Window and open Pi kiss. You'll find an Option where stands Update Mesa Driver (Or simething else)
-If its Installed you should now can reboot your pi 5. Then Chromium should open and other thinks work then too.
+If its Installed reboot your i 5. Then Chromium should open and other thinks work then too.
+If you want tu build it yourself, please refer to the guide from Mesa.
 
 # Informations
 Bullseye is not Officialy Supported on the Pi 5. Bullseye is now in Unstable. I Higly Recommend using Bookworm than Bullsseye.
