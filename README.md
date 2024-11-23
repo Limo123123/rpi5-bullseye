@@ -22,7 +22,7 @@ Then you run sudo rpi-update to update the Kernel Version and its generating for
 Before you switch to the Pi 5 Make sure you deactivate the Drver Vc4 Driver Initalation. Just Comment it
 We have to Upgrade the Mesa Driver. In this tutorial im using ~PI-KISS~ I wont use it anymore. You can build It Manual.
 I would Recommend to Install Pi-Kiss before you switch to the pi 5.
-If you Installed Pi Kiss, open the Terminal Window and open Pi kiss. You'll find an Option where stands Update Mesa Driver (Or simething else)
+(ONLY IF YOU WANT TO USE IT):If you Installed Pi Kiss, open the Terminal Window and open Pi kiss. You'll find an Option where stands Update Mesa Driver (Or simething else)
 If its Installed reboot your i 5. Then Chromium should open and other thinks work then too.
 If you want tu build it yourself, please refer to the guide from Mesa.
 
