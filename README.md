@@ -34,3 +34,20 @@ To Help this Project you will to have to edit Images and will have to open a Pul
 I wont recommend to use PiKiss anymore. I am supporting Pi-Apps, but if PiKiss's Repository Owner dosen't want to Contribute for the PiKiss version for Pi-Apps, i wont use it anymore.
 I just wanted to say this. I don't mean that you mustn't use PiKiss. It's just an recomendation.
 We cant just upload the Code for it here. So i will create an Script for Install
+
+# Edit for this Branch (Beta)
+I added an Script to auto install, all the things needed for it.
+I did not tested it.
+It implements:
+- sudo rpi-update
+- Comment dtoverlay of MESA driver
+- Pi-Kiss vulkan updater Skript
+- Update all Packages
+- Ask for a Reboot
+As i Already said: I DID NOT TEST IT YET
+You have to run it on a Pi 4
+First after the Reboot you can plug in the sd-card in an Pi 5!
+PLEASE DO NOT UPDATE BEFORE RUNNING THIS SCRIPT!
+USING THIS SCRIPT CAN BREAK YOUR SYSTEM (Your Bullseye System)
+After Sucessful testing, it will be come into the main branch.
+This text will be Removed/Edited if the Branches become Merged.
