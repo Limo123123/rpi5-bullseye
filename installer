@@ -1,8 +1,13 @@
 # Run this installer ONLY ON A PI 4 WITH BULLSEYE IMAGE!
 # This script will only single Lines! It wont check anything or update somthing (except for kernel)
+# This skript is an Single-Run Skript. Run it only one time. If you have errors, report them please
 # It will update yor Pi!
 
 sudo rpi-update
+
+# Install Dialog 
+sudo apt update
+sudo apt install dialog
 
 # Run Comment script, to get rid of the vc4, v3d driver dtoverlay!
 #!/bin/bash
@@ -20,6 +25,9 @@ else
 fi
 
 
+# Download Helper skript from Pi-Kiss, but first delete it, if it exists
+rm helper.sh
+wget -q 'https://github.com/jmcerrejon/PiKISS/raw/master/scripts/helper.sh'
 
 # MESA Update Part. This commes from Pi-Kiss. I implement it directly because it would be to hard to make one. (For now)
 # You can update it here or at Pi-Kiss (I would really recommend Pi-Kiss!)

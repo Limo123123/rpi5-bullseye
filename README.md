@@ -51,3 +51,7 @@ PLEASE DO NOT UPDATE BEFORE RUNNING THIS SCRIPT!
 USING THIS SCRIPT CAN BREAK YOUR SYSTEM (Your Bullseye System)
 After Sucessful testing, it will be come into the main branch.
 This text will be Removed/Edited if the Branches become Merged.
+
+Script run command:
+
+curl -sSL https://raw.githubusercontent.com/Limo123123/rpi5-bullseye/refs/heads/beta/installer | sudo bash
