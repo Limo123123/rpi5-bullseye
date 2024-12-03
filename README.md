@@ -34,3 +34,15 @@ To Help this Project you will to have to edit Images and will have to open a Pul
 I wont recommend to use PiKiss anymore. I am supporting Pi-Apps, but if PiKiss's Repository Owner dosen't want to Contribute for the PiKiss version for Pi-Apps, i wont use it anymore.
 I just wanted to say this. I don't mean that you mustn't use PiKiss. It's just an recomendation.
 We cant just upload the Code for it here. So i will create an Script for Install
+
+# Note
+The Lite Raspberry Pi OS 64 Bit Image for Pi 5, is an 100% functional Image. It works like on a Pi 4.
+I will test it a few days, so please wait!
+- Even the Powerbutton Works, it just shutdowns!
+- This Image Contains my own APT Repo. Its as trusted=yes marked, because it dosen't have Keys yet
+- It includes an own Motd (Morning Message)
+- Please note that I wont check the GPIOS and RPi.GPIO is not Compatibile with the Pi 5
+
+The Desktop Image is in an Beta, and not very Compatible yet with the Pi 5, because of the vc4, v3d Mesa Drivers.
+They are just uncommented. So courser, window bar, accelerated 3d won't work at the moment
+So if they are commented these things called above wont work (Correctly).
