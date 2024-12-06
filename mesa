@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Path to the config.txt file
+CONFIG_FILE="/boot/config.txt"
+
+# Check if the line exists and is not already commented
+if grep -q "^dtoverlay=vc4-kms-v3d" "$CONFIG_FILE"; then
+    # Use sed to comment the line
+    sudo sed -i 's/^dtoverlay=vc4-kms-v3d/#&/' "$CONFIG_FILE"
+    echo "The line 'dtoverlay=vc4-kms-v3d' has been commented out."
+else
+    echo "The line 'dtoverlay=vc4-kms-v3d' is either already commented or not present."
+fi
+
