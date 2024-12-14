@@ -46,3 +46,7 @@ I will test it a few days, so please wait!
 The Desktop Image is in an Beta, and not very Compatible yet with the Pi 5, because of the vc4, v3d Mesa Drivers.
 They are just uncommented. So courser, window bar, accelerated 3d won't work at the moment
 So if they are commented these things called above wont work (Correctly).
+
+
+Bullseye for Pi 5 will remain in developing until at least Debian 13 (RPI OS release)
+After that Date, it could become Archived 
