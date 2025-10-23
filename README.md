@@ -1,3 +1,6 @@
+# Archived
+Since Bookworm is now oldstable and has a successor, this project is now being archived. It should still work in part, except that with the Mesa drivers
+
 # Raspberry Pi 5 Bullseye
 This is an Image for the Rpi 5 with the Old Bullseye System. But the image Should Pi4 Compatible
 
